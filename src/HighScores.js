@@ -1,6 +1,8 @@
 import React from "react";
 import allCountryScores from "./Scores";
 import "./index.css";
+import PlayerScore from "./PlayerScore";
+
 const HighScores = () => {
   /**
  * Function to sort alphabetically an array of objects by some specific key.
@@ -37,11 +39,8 @@ function dynamicSort(property) {
                 {country.scores.sort((x,y) => x.s - y.s).map((names) => {
                   console.log(names.s);
                   return (
-                    <tr className="innerBorder">
-                      <td className="column1"> {names.n} </td>
-                      <td className="column2"> {names.s} </td>
-                    </tr>
-                  );
+                      <PlayerScore name={names.n} score={names.s} />
+                  )
                 })}
               </table>
             </div>
