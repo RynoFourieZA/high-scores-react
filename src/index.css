@@ -1,0 +1,48 @@
+.countryBorder {
+  border: blueviolet;
+  border-style: solid;
+  margin-left: 25%;
+  margin-right: 25%;
+  margin-top: 50px;
+}
+
+#highScoreHeader {
+  color: blue;
+  text-align: center;
+  padding-top: 20px;
+}
+
+#countryNameHeader {
+  color: blue;
+  text-align: center;
+  font-size: 30px;
+}
+
+.column1 {
+  width: 50%;
+}
+
+.column2 {
+  width: 50%;
+}
+
+.middleBorder {
+  display: flex;
+  flex-direction: column;
+  text-align: end;
+  border-style: solid;
+  border-width: 10px;
+  border-color: rgb(9, 241, 60);
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 60px;
+  padding: 2%;
+}
+
+.innerBorder {
+  margin-left: 1%;
+  margin-right: 1%;
+  border-style: solid;
+  border-color: black;
+  border-width: 2px;
+}
